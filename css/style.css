@@ -1,0 +1,125 @@
+
+/* Definição de fonte */
+@font-face {
+    font-family: "Unbounded";
+    src: url("../fonts/Unbounded-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo Desktop */
+body{
+    background-color: #0E1014;
+    color:#FFFFFF;
+}
+
+header img{
+    display: block;
+    margin: 75px 0px 0px 360px;
+    
+}
+
+h1{ 
+    font-size: 64px;  
+    font-family: "Unbounded", sans-serif ;
+    text-align: center;
+    margin: 60px auto 24px;
+}
+
+h1 span{
+    color: #9747FF;
+}
+
+p{
+    font-size: 24px;
+    font-family: "poppins", sans-serif;
+    width: 792px;
+    text-align: center;
+    margin: auto;
+}
+
+a{
+    color: #FFFFFF;
+    font-family: "poppins";
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+    }
+a:hover{
+    background-color: #8233E8;
+}
+
+section img{
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0px auto;
+}
+
+/* Ajustes para tablet */
+@media(max-width: 768px){
+
+    header img{
+        margin: 65px 0px 0px 60px;
+    }
+
+    p{
+        width: 648px;
+    }
+
+    section img{
+        width: 659px;
+        height: 446px;
+    }
+
+}
+
+/* Ajuste para cel */
+@media(max-width:375px) {
+    header img{
+        margin-top: 32px;
+        margin-left: 16px;
+    }
+
+    h1{
+        font-size: 40px;        
+    }
+
+    p{
+        font-size: 20px;
+        width: 341px;
+    }
+    a{
+    font-size: 20px;
+    width: 251px;
+    height: 48,72px;
+    line-height: 48,72px;
+    }
+
+    section img{
+        width: 341px;
+        height: 230px;
+    }
+}
